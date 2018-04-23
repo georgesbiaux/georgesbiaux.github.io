@@ -15,11 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: Georges Biaux
 email: georges.biaux@gadz.org
-description: J'écris de la fantasy, de la science-fiction et du code de qualité.
+description: Je rêves des univers et je les laisse les mots leur donner corps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: georgesbiaux
 github_username:  georgesbiaux
+
+paginate: 5
+paginate_path: "/blog/page:num"
+permalink: "/blog/:title/"
 
 # Build settings
 markdown: kramdown
