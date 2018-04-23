@@ -1,6 +1,6 @@
 body {
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Georgia', sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -245,6 +245,11 @@ h1.title {
 
 .tags i {
     margin-right: 10px;
+}
+
+.posts .content p, .post p {
+  text-align: justify;
+  text-indent: 40px;
 }
 
 .post img {
