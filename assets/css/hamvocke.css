@@ -162,7 +162,7 @@ h1.title {
 
 #text {
     text-align: left;
-    width: 600px;
+    width: 630px;
     margin: auto;
 }
 
@@ -173,6 +173,10 @@ h1.title {
 #text ul li, #text ol li {
     line-height: 1.5em;
     margin-top: 0.5em;
+}
+
+#text p {
+  margin-bottom: 0px;
 }
 
 #markdown-toc {
