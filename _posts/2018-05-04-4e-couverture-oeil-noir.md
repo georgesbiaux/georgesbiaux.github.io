@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Oeil Noir - 4e de couverture
+description: Oeil Noir - 4e de couverture
 tags: roman fantasy
 excerpt: Découvrez un petit apperçu de mon nouveau roman ;)
 comments: true
