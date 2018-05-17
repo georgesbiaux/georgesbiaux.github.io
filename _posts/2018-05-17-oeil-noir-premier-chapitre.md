@@ -2,6 +2,7 @@
 layout: post
 title: Oeil Noir - Premier Chapitre
 description: Oeil Noir - Premier Chapitre
+share-img: "assets/img/chapitre1-share.png"
 tags: roman fantasy
 excerpt: Une mise en bouche un peu plus conséquente de mon roman de Fantasy :)
 comments: true
