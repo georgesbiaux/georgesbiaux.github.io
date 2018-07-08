@@ -162,7 +162,7 @@ h1.title {
 
 #text {
     text-align: left;
-    width: 630px;
+    width: 930px;
     margin: auto;
 }
 
@@ -332,6 +332,43 @@ h1.title {
 
 .float-right {
     float: right;
+}
+
+#about {
+  width: 630px;
+  margin: auto;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+}
+
+.book .cover {
+  height: 300px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.book .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book .info .title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.book .info .summary {
+  font-size: 18px;
+  flex: 1;
+  text-align: justify;
+}
+
+.book .info .links .fab {
+  font-size: 28px;
 }
 
 @media (max-width: 768px) {
