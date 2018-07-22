@@ -371,6 +371,22 @@ h1.title {
   font-size: 28px;
 }
 
+.book .info .links .fab.fa-fnac {
+  height: 28px;
+  width: 28px;
+  margin-bottom: -2px;
+  margin-left: 5px;
+  fill: #018d67;
+}
+
+.book .info .links .fab.fa-fnac path {
+  fill: #018d67;
+}
+
+.book .info .links .fab.fa-fnac path:hover {
+  fill: #23527c;
+}
+
 @media (max-width: 768px) {
     #text {
 	    width: 100%;
