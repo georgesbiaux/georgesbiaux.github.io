@@ -387,6 +387,34 @@ h1.title {
   fill: #23527c;
 }
 
+nav ul li a .fab.fa-fnac {
+  height: 18px;
+  width: 18px;
+  margin-bottom: -1px;
+}
+
+nav ul li a .fab.fa-fnac path {
+  fill: #444;
+}
+
+nav ul li a .fab.fa-fnac path:hover {
+  fill: #23527c;
+}
+
+footer .icons .fab.fa-fnac {
+  height: 18px;
+  width: 18px;
+  margin-bottom: -1px;
+}
+
+footer .icons .fab.fa-fnac path {
+  fill: #018d67;
+}
+
+footer .icons .fab.fa-fnac path:hover {
+  fill: #23527c;
+}
+
 @media (max-width: 768px) {
     #text {
 	    width: 100%;
