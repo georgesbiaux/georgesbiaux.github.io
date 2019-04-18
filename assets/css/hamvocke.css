@@ -335,7 +335,7 @@ h1.title {
 }
 
 #about {
-  width: 630px;
+  max-width: 630px;
   margin: auto;
 }
 
@@ -365,6 +365,10 @@ h1.title {
   font-size: 18px;
   flex: 1;
   text-align: justify;
+}
+
+.book .info .links {
+  margin-top: 20px;
 }
 
 .book .info .links .fab {
@@ -416,6 +420,23 @@ footer .icons .fab.fa-fnac path:hover {
 }
 
 @media (max-width: 768px) {
+    .book {
+        flex-direction: column;
+    }
+
+    .book .cover {
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .book .info .links {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
     #text {
 	    width: 100%;
       padding: 15px;
